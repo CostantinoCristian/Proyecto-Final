@@ -1,0 +1,10 @@
+#presentacion{
+    text-align: center;
+    font-size: larger;
+}
+#presentacion p{
+    padding: 5px;
+}
+#presentacion img {
+    max-height: 300px;
+}

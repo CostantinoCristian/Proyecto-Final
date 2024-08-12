@@ -1,0 +1,11 @@
+INSERT INTO tematicas (tema) VALUES
+    ('Novela'),
+    ('Cuento'),
+    ('Poesía'),
+    ('Drama'),
+    ('Ensayo'),
+    ('Biografía'),
+    ('Autobiografía'),
+    ('Memorias'),
+    ('Relatos cortos'),
+    ('Crónica literaria');

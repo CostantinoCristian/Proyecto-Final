@@ -1,0 +1,33 @@
+@charset "UTF-8";
+#paginas {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.pagina {
+  width: 139.7mm;
+  height: 215.9mm;
+  border: 2px solid #382602;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: #b1a07d;
+  box-shadow: 2vw 2vw 0 rgba(0, 0, 0, 0.1);
+}
+.pagina p{
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif ;
+    display: flex;
+    flex: 1;
+}
+.pagina span{
+    font-weight: bold;
+    padding: 15px;
+    margin-left: auto;
+}

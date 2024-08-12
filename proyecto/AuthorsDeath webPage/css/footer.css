@@ -1,0 +1,69 @@
+@charset "UTF-8";
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 4px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.footer {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 20px; 
+}
+
+nav.footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+nav.footer a {
+    text-decoration: none;
+    font-size: large;
+    color: #b6a78a;
+    transition: color 1.5s;
+}
+
+nav.footer a:hover {
+    background-color: #424242;
+    color: #00233d;
+    transition: color 0.3s;
+}
+
+#logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+#logoFooter {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+@keyframes changeColor {
+    0% { transform: rotate(-4deg); }
+    0% { color: var(--color1); }
+    25% { color: var(--color2); }
+    50% { transform: rotate(4deg); }
+    50% { color: var(--color3); }
+    75% { color: var(--color4); }
+    100% {transform: rotate(-4deg); }
+    100% { color: var(--color1); }
+    
+}
+#logoContainer p {
+    padding-right: 10px;
+    animation: changeColor 10s linear infinite;
+}
+:root {
+    --color1: red; 
+    --color2: #00233d;
+    --color3: green;
+    --color4: yellow;
+    }

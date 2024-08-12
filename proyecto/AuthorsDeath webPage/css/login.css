@@ -1,0 +1,72 @@
+@charset "UTF-8";
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+   
+}
+#loginContainer {
+    text-align: center;
+    max-width: 400px;
+    padding: 20px;
+    border: 2px solid #382602;
+    border-radius: 8px;
+    background-color: #b6a78a;
+    box-shadow: 15px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    border: 2px solid #382602;
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+#loginForm {
+    margin-bottom: 20px;
+}
+
+.boton {
+    background-color: #926711;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #382602;
+}
+
+
+#nick {
+    background-color: #ffeecc;
+}
+
+#password {
+    background-color: #ffeecc;
+}
+
+#result {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    font-weight: bold;
+    font-size:large;
+}

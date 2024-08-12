@@ -1,0 +1,84 @@
+@charset "UTF-8";
+#libreria{
+    max-width: 100%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+#libros-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+#detalles-libro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    box-sizing: border-box;
+}
+
+.libro {
+    background-color: #b6a78a;
+    border: 2px solid #382602;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: calc(12.0% - 20px);
+    box-shadow: 15px 15px 0 rgba(0, 0, 0, 0.1);
+    background-color: #b1a07d
+}
+.libro:hover {
+    background-color: #a09276;
+    border: 2px solid #382602;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: calc(12.0% - 20px);
+    box-shadow: 15px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+}
+#filtros {
+    display: flex;
+    padding-bottom: 10px;
+}
+#filtros form {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#filtros input,
+#filtros select {
+    padding:10px;
+    margin-left: 10px;
+    background-color: #ffeecc;
+}
+#paginador {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+}
+#paginador .pagIzq {
+    margin-right: auto;
+    background-color: #b1a07d;
+    margin-left: 40px;
+    font-size: larger;
+}
+#paginador .pagDer {
+    margin-left: auto;
+    background-color: #b1a07d;
+    margin-right: 40px;
+    font-size: larger;
+}
