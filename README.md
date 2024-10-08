@@ -1,4 +1,5 @@
-Aplicacion Author's Death 
+Aplicacion Author's Death.                                                                                                 
+
 Creé varias APIs para compartir y escribir cuentos, novelas o cualquier contenido de texto que el usuario desee.
 Además, desarrollé funcionalidades para la creación de usuarios y el manejo de los mismos. 
 El proyecto incluye una base de datos MySQL, donde se guarda toda la información necesaria para que las aplicaciones que consuman las APIs puedan obtener y almacenar los datos pertinentes.
